@@ -74,13 +74,13 @@ struct TrieNode {
    $ mkdir build
    $ cd build
    ```
-4. Run CMake to configure the project:
+4. Run CMake from *trie-app/build* directory to configure the project:
    ```
    $ cmake ..
    ```
 5. From the *trie-app/build* directory, Build the project and run the test file:
    ```
-   $ make && ./trie-test
+   $ make && ./trie-tests
    ```
 
 ### Test file and expected results:
